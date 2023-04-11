@@ -1,0 +1,40 @@
+.footer-card {
+    margin: 0 auto;
+    max-width: 1000px
+}
+
+.footer-card .dark .ui-select-wrapper .ui-select {
+    background-color: #000;
+    background-image: none;
+    border: 1px solid #333;
+    color: #999;
+    font-size: 16px
+}
+
+.footer-card .dark .ui-select-wrapper .select-arrow:after {
+    color: #999;
+    top: 22px
+}
+
+.footer-card .dark .ui-select-wrapper .select-arrow.prefix:before {
+    color: #999;
+    top: 17px
+}
+
+.site-footer-wrapper {
+    color: #737373;
+    font-size: 1em;
+    margin-top: 80px;
+    min-width: 190px;
+    padding-bottom: 20px;
+    position: relative;
+    width: 100%
+}
+
+.pt11 .site-footer-wrapper {
+    margin-bottom: 80px
+}
+
+.pt11 .site-footer-wrapper .footer-divider {
+    display: none
+}

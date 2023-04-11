@@ -1,0 +1,630 @@
+.our-story-card {
+    background: transparent;
+    border-bottom: 8px solid #222;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 50px 5%;
+    position: relative
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:550px) and (max-width:949px),
+only screen and (min-width:950px) and (max-width:1449px) {
+    .our-story-card {
+        padding: 70px 45px
+    }
+}
+
+.hero-card h1,
+.hero-card h2 {
+    margin: 0 auto;
+    max-width: 640px
+}
+
+@media only screen and (min-width:1450px) {
+
+    .hero-card h1,
+    .hero-card h2 {
+        max-width: 800px
+    }
+}
+
+.hero-card .our-story-card-title {
+    font-size: 1.75rem
+}
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+    .hero-card .our-story-card-title {
+        font-size: 3.125rem
+    }
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:950px) and (max-width:1449px) {
+    .hero-card .our-story-card-title {
+        font-size: 4rem
+    }
+}
+
+.hero-card .our-story-card-subtitle {
+    font-size: 1.125rem;
+    margin: 1rem auto
+}
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+    .hero-card .our-story-card-subtitle {
+        font-size: 1.625rem
+    }
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:950px) and (max-width:1449px) {
+    .hero-card .our-story-card-subtitle {
+        font-size: 1.625rem
+    }
+}
+
+.hero-card .our-story-welcome-back {
+    display: block;
+    margin-bottom: .5em
+}
+
+.hero-card .our-story-card-text {
+    margin: 0 auto;
+    max-width: 950px;
+    padding: 75px 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1
+}
+
+@media only screen and (min-width:400px) and (max-width:549px) {
+    .hero-card .our-story-card-text {
+        padding: 30px 0
+    }
+}
+
+@media only screen and (min-width:350px) and (max-width:399px) {
+    .hero-card .our-story-card-text {
+        padding: 15px 0
+    }
+}
+
+@media only screen and (max-width:349px) {
+    .hero-card .our-story-card-text {
+        padding: 0
+    }
+}
+
+.hero-card .our-story-card-text .our-story-cta-container {
+    float: none
+}
+
+.hero-card .concord-img-wrapper {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px) {
+    .hero-card .concord-img-wrapper {
+        bottom: auto
+    }
+}
+
+.hero-card .concord-img {
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transform: scale(1.25) translateY(-10%);
+    width: 100%
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px) {
+    .hero-card .concord-img {
+        height: auto;
+        transform: none
+    }
+}
+
+.hero-card .concord-img-gradient {
+    background: rgba(0, 0, 0, .5);
+    background-image: linear-gradient(0deg, transparent 50%, rgba(0, 0, 0, .7)), radial-gradient(50% 100%, transparent 0, rgba(0, 0, 0, .7) 100%);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px) {
+    .hero-card .concord-img-gradient {
+        background: transparent;
+        background-image: linear-gradient(0deg, #000 0, transparent 30%)
+    }
+
+    .hero-card .concord-img-gradient:before {
+        background-image: linear-gradient(180deg, #000 25%, transparent);
+        content: "";
+        height: 70px;
+        position: absolute;
+        width: 100%
+    }
+}
+
+@media only screen and (min-width:950px) and (max-width:1449px) {
+    .hero-card.vlv .our-story-card-title {
+        font-size: 3.125rem
+    }
+}
+
+.hero-card.vlv .our-story-card-title .our-story-card-text {
+    padding: 0 0 10px
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) and (orientation:portrait) {
+    .hero-card.vlv .our-story-card-title .our-story-card-text {
+        padding: 50px 0
+    }
+}
+
+.hero-card.vlv .our-story-card-title .our-story-card-title {
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, .7)
+}
+
+.hero-card.vlv .concord-img {
+    transform: none
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) and (orientation:portrait) {
+    .hero-card.vlv .concord-img {
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        width: auto
+    }
+}
+
+.hero-card.vlv .our-story-card-background .concord-img-wrapper {
+    bottom: 0
+}
+
+.hero-card.vlv .concord-img-gradient {
+    background: rgba(0, 0, 0, .4);
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 60%, rgba(0, 0, 0, .8))
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) and (orientation:portrait) {
+    .hero-card.vlv .concord-img-gradient {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, .8) 0, transparent 40%, transparent 75%, rgba(0, 0, 0, .8))
+    }
+}
+.our-story-card-background {
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 0;
+    top: -70px;
+    z-index: 0
+}
+.our-story-card-title {
+    font-size: 3.125rem;
+    line-height: 1.1;
+    margin-bottom: .5rem
+}
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+    .our-story-card-title {
+        font-size: 2.5rem
+    }
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px) {
+    .our-story-card-title {
+        font-size: 1.625rem
+    }
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:950px) and (max-width:1449px) {
+    .our-story-card-background {
+        top: -100px
+    }
+}
+.our-story-card-subtitle,
+.our-story-card-text {
+    font-size: 1.625rem;
+    font-weight: 400
+}
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+
+    .our-story-card-subtitle,
+    .our-story-card-text {
+        font-size: 1.25rem
+    }
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px) {
+
+    .our-story-card-subtitle,
+    .our-story-card-text {
+        font-size: 1.125rem
+    }
+}
+
+.our-story-card-disclaimer {
+    font-size: 1.2rem;
+    font-weight: 400
+}
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+    .our-story-card-disclaimer {
+        font-size: 1rem
+    }
+}
+
+.animation-card .our-story-card-img-container {
+    box-sizing: border-box;
+    display: flex;
+    flex: 0 1 auto;
+    height: 100%;
+    width: 48%
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card .our-story-card-img-container {
+        margin-top: 1em;
+        max-width: 600px;
+        width: 100%
+    }
+}
+
+.animation-card.flipped .animation-card-container {
+    flex-flow: row-reverse
+}
+
+.animation-card.flipped .animation-card-container .our-story-card-text {
+    padding: 0 0 0 3rem
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.flipped .animation-card-container .our-story-card-text {
+        padding: 0
+    }
+
+    .animation-card.flipped .animation-card-container {
+        flex-flow: column
+    }
+}
+
+.animation-card .our-story-card-animation-container {
+    overflow: hidden;
+    position: relative
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card .our-story-card-animation-container {
+        margin: 0 auto
+    }
+}
+
+.animation-card .our-story-cta-container {
+    margin-top: 1rem
+}
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card .our-story-cta-container {
+        float: none
+    }
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card .our-story-cta-container {
+        display: none
+    }
+}
+
+.animation-card.watchOnDevice .our-story-card-img,
+.animation-card.watchOnTv .our-story-card-img {
+    position: relative;
+    z-index: 2
+}
+
+.animation-card.watchOnDevice .our-story-card-video,
+.animation-card.watchOnTv .our-story-card-video {
+    height: 100%;
+    width: 100%
+}
+
+.animation-card.watchOnTv .our-story-card-animation-container {
+    margin: -10% -5% -5% 0
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.watchOnTv .our-story-card-animation-container {
+        margin: -10% 0 0
+    }
+}
+
+.animation-card.watchOnTv .our-story-card-text {
+    margin: -5% 0
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.watchOnTv .our-story-card-text {
+        margin: 0
+    }
+}
+
+.animation-card.watchOnTv .our-story-card-animation {
+    height: 100%;
+    left: 50%;
+    max-height: 54%;
+    max-width: 73%;
+    position: absolute;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    width: 100%
+}
+
+.animation-card.watchOnDevice .our-story-card-animation-container {
+    margin: -5% -10% 0 0
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.watchOnDevice .our-story-card-animation-container {
+        margin: -5% 0 0
+    }
+}
+
+.animation-card.watchOnDevice.flipped .our-story-card-animation-container {
+    margin: -5% 0 0 -10%
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.watchOnDevice.flipped .our-story-card-animation-container {
+        margin: -5% 0 0
+    }
+}
+
+.animation-card.watchOnDevice .our-story-card-text {
+    margin: -2% 0
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.watchOnDevice .our-story-card-text {
+        margin: 0
+    }
+}
+
+.animation-card.watchOnDevice .our-story-card-animation {
+    height: 100%;
+    left: 50%;
+    max-height: 47%;
+    max-width: 63%;
+    position: absolute;
+    top: 34%;
+    transform: translate(-50%, -50%);
+    width: 100%
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation-container {
+    margin: -8% 0 0;
+    min-height: 100px;
+    width: 100%
+}
+
+.animation-card.downloadAndWatch.flipped .our-story-card-animation-container {
+    margin: -8% 0 -4% -15%
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.downloadAndWatch.flipped .our-story-card-animation-container {
+        margin: -8% 0 0
+    }
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation {
+    align-items: center;
+    background: #000;
+    border: 2px solid hsla(0, 0%, 100%, .25);
+    border-radius: .75em;
+    bottom: 8%;
+    box-shadow: 0 0 2em 0 #000;
+    display: flex;
+    left: 50%;
+    margin: 0 auto;
+    min-width: 15em;
+    padding: .25em .65em;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 60%
+}
+
+@media only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.downloadAndWatch .our-story-card-animation {
+        padding: .35em .75em
+    }
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:950px) and (max-width:1449px) {
+    .animation-card.downloadAndWatch .our-story-card-animation {
+        padding: .5em .75em
+    }
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-custom {
+    background: url(https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/download-icon.gif) 50% no-repeat;
+    background-size: 100%;
+    content: "";
+    display: block;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 3em;
+    outline: 2px solid #000;
+    outline-offset: -2px;
+    width: 3em
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:550px) and (max-width:949px),
+only screen and (min-width:950px) and (max-width:1449px) {
+    .animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-custom {
+        height: 3.75em
+    }
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-image {
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 0 1em 0 0
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-image img {
+    height: 3em
+}
+
+@media only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-image img {
+        height: 4em
+    }
+}
+
+@media only screen and (min-width:950px) and (max-width:1449px) {
+    .animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-image img {
+        height: 4.5em
+    }
+}
+
+@media only screen and (min-width:1450px) {
+    .animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-image img {
+        height: 5em
+    }
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text {
+    flex-grow: 1;
+    flex-shrink: 1;
+    margin: .3em 0
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-0 {
+    color: #fff;
+    font-size: .9em;
+    font-weight: 600
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:550px) and (max-width:949px),
+only screen and (min-width:950px) and (max-width:1449px) {
+    .animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-0 {
+        font-size: 1em
+    }
+}
+
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-1,
+.animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-2 {
+    color: #0071eb;
+    font-size: .75em;
+    font-weight: 400
+}
+
+@media only screen and (min-width:1450px),
+only screen and (min-width:550px) and (max-width:949px),
+only screen and (min-width:950px) and (max-width:1449px) {
+
+    .animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-1,
+    .animation-card.downloadAndWatch .our-story-card-animation .our-story-card-animation-text .text-2 {
+        font-size: .9em
+    }
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px),
+only screen and (min-width:550px) and (max-width:949px) {
+    .animation-card .our-story-card-img-container--mobile-devices {
+        margin-top: 2em
+    }
+}
+
+.animation-card .our-story-card-img-container--mobile-devices .our-story-card-animation {
+    top: 38%
+}
+.faq-card {
+    text-align: center
+}
+
+@media only screen and (max-width:349px),
+only screen and (min-width:350px) and (max-width:399px),
+only screen and (min-width:400px) and (max-width:549px) {
+    .faq-card {
+        padding: 50px 0
+    }
+
+    .faq-card .our-story-card-title,
+    .faq-card .our-story-cta-container {
+        padding-left: 5%;
+        padding-right: 5%
+    }
+}
+
+.faq-card .email-form {
+    margin: 0 auto
+}
